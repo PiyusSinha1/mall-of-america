@@ -1,0 +1,116 @@
+{
+  "headline": "Premier Retail Collection",
+  "description": "From world-class luxury brands to beloved lifestyle retailers, Mall of America offers an unparalleled shopping experience.",
+  "categories": [
+    {
+      "name": "Anchor Stores",
+      "tenants": [
+        {
+          "id": "nordstrom",
+          "name": "Nordstrom",
+          "category": "Department Store",
+          "description": "Luxury department store featuring high-end fashion and beauty"
+        },
+        {
+          "id": "macys",
+          "name": "Macy's",
+          "category": "Department Store",
+          "description": "Full-line department store with fashion, home, and accessories"
+        },
+        {
+          "id": "saks",
+          "name": "Saks Fifth Avenue",
+          "category": "Luxury Retail",
+          "description": "Premium luxury shopping destination"
+        },
+        {
+          "id": "dicks",
+          "name": "Dick's Sporting Goods",
+          "category": "Specialty Retail",
+          "description": "Premier athletic and sporting goods retailer"
+        }
+      ]
+    },
+    {
+      "name": "Luxury Brands",
+      "tenants": [
+        {
+          "id": "gucci",
+          "name": "Gucci",
+          "category": "Luxury Fashion",
+          "description": "Italian luxury fashion house"
+        },
+        {
+          "id": "louis-vuitton",
+          "name": "Louis Vuitton",
+          "category": "Luxury Fashion",
+          "description": "Premium luxury goods and fashion"
+        },
+        {
+          "id": "prada",
+          "name": "Prada",
+          "category": "Luxury Fashion",
+          "description": "High-end Italian fashion brand"
+        },
+        {
+          "id": "rolex",
+          "name": "Rolex",
+          "category": "Luxury Watches",
+          "description": "Prestigious timepiece retailer"
+        }
+      ]
+    },
+    {
+      "name": "Lifestyle & Fashion",
+      "tenants": [
+        {
+          "id": "zara",
+          "name": "Zara",
+          "category": "Fast Fashion",
+          "description": "Contemporary fashion and styling"
+        },
+        {
+          "id": "h-and-m",
+          "name": "H&M",
+          "category": "Fashion Retail",
+          "description": "Trendy clothing for all ages"
+        },
+        {
+          "id": "gap",
+          "name": "Gap",
+          "category": "Casual Fashion",
+          "description": "American classic casual wear"
+        },
+        {
+          "id": "anthropologie",
+          "name": "Anthropologie",
+          "category": "Lifestyle",
+          "description": "Curated clothing, home, and gifts"
+        }
+      ]
+    },
+    {
+      "name": "Electronics & Tech",
+      "tenants": [
+        {
+          "id": "apple",
+          "name": "Apple",
+          "category": "Technology",
+          "description": "Premium technology and innovation"
+        },
+        {
+          "id": "best-buy",
+          "name": "Best Buy",
+          "category": "Electronics",
+          "description": "Consumer electronics and appliances"
+        },
+        {
+          "id": "microsoft",
+          "name": "Microsoft Store",
+          "category": "Technology",
+          "description": "Microsoft products and services"
+        }
+      ]
+    }
+  ]
+}

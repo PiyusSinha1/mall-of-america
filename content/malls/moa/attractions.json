@@ -1,0 +1,76 @@
+{
+  "headline": "World-Class Attractions",
+  "description": "Beyond shopping, Mall of America features premium entertainment venues that drive extended visits and repeat traffic.",
+  "attractions": [
+    {
+      "id": "nickelodeon-universe",
+      "name": "Nickelodeon Universe",
+      "type": "Theme Park",
+      "description": "The largest indoor theme park in North America with 25+ rides and attractions",
+      "highlights": [
+        "25+ rides and attractions",
+        "Indoor year-round operation",
+        "Family-friendly entertainment",
+        "Multiple thrill levels"
+      ]
+    },
+    {
+      "id": "sea-life-minnesota",
+      "name": "SEA LIFE Minnesota Aquarium",
+      "type": "Aquarium",
+      "description": "Interactive aquarium featuring underwater tunnels and touch pools",
+      "highlights": [
+        "Underwater tunnels with sharks and rays",
+        "Interactive touch pools",
+        "Dive and snorkel experiences",
+        "Educational programs"
+      ]
+    },
+    {
+      "id": "lego-discovery",
+      "name": "LEGO Discovery Center Minnesota",
+      "type": "Family Entertainment",
+      "description": "Immersive LEGO experience with building activities and rides",
+      "highlights": [
+        "4D cinema experience",
+        "LEGO building activities",
+        "Interactive rides",
+        "Master builder workshops"
+      ]
+    },
+    {
+      "id": "cinemark",
+      "name": "Cinemark Cinema",
+      "type": "Entertainment",
+      "description": "Premium movie theater with stadium seating and latest technology",
+      "highlights": [
+        "Stadium seating",
+        "Latest cinema technology",
+        "Premium concessions",
+        "Private screening rooms"
+      ]
+    }
+  ],
+  "amenities": [
+    {
+      "id": "parking",
+      "name": "Parking",
+      "description": "Extensive parking with 12,500+ spaces and convenient entry points"
+    },
+    {
+      "id": "accessibility",
+      "name": "Accessibility",
+      "description": "Wheelchair accessible throughout with elevators, ramps, and accessible facilities"
+    },
+    {
+      "id": "family-services",
+      "name": "Family Services",
+      "description": "Family restrooms, nursing rooms, and family lockers throughout the mall"
+    },
+    {
+      "id": "concierge",
+      "name": "Concierge Services",
+      "description": "Guest services and information desks at multiple locations"
+    }
+  ]
+}
