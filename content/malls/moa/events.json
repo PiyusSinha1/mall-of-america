@@ -1,0 +1,60 @@
+{
+  "headline": "Events & Activations",
+  "description": "Year-round calendar of events, seasonal activations, and marketing partnerships that drive traffic and engagement.",
+  "eventTypes": [
+    {
+      "type": "Seasonal",
+      "examples": [
+        "Holiday shopping events",
+        "Back-to-school promotions",
+        "Summer family activities",
+        "New Year celebrations"
+      ]
+    },
+    {
+      "type": "Retail Partnerships",
+      "examples": [
+        "Brand launch events",
+        "Designer collaborations",
+        "Exclusive preview nights",
+        "VIP shopping experiences"
+      ]
+    },
+    {
+      "type": "Entertainment",
+      "examples": [
+        "Live performances",
+        "Concert series",
+        "Family entertainment days",
+        "Community celebrations"
+      ]
+    },
+    {
+      "type": "Marketing Opportunities",
+      "examples": [
+        "Branded experiences",
+        "Pop-up activations",
+        "Sponsorship placements",
+        "Digital media partnerships"
+      ]
+    }
+  ],
+  "marketingBenefits": [
+    {
+      "benefit": "High Visibility",
+      "description": "Reach 40M+ annual visitors with premium placement"
+    },
+    {
+      "benefit": "Brand Association",
+      "description": "Connect with quality retail and entertainment partners"
+    },
+    {
+      "benefit": "Demographic Reach",
+      "description": "Access diverse audience across age and income levels"
+    },
+    {
+      "benefit": "Extended Engagement",
+      "description": "Benefit from visitors' extended stays and repeat visits"
+    }
+  ]
+}

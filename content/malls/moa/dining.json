@@ -1,0 +1,84 @@
+{
+  "headline": "Culinary Experiences",
+  "description": "From quick casual bites to fine dining, Mall of America offers diverse culinary experiences.",
+  "venues": [
+    {
+      "id": "restaurants",
+      "category": "Restaurants",
+      "venues": [
+        {
+          "id": "bacchanal",
+          "name": "Bacchanal Buffet",
+          "cuisine": "Upscale Buffet",
+          "description": "Premium dining with diverse international cuisine"
+        },
+        {
+          "id": "morton-steak",
+          "name": "Morton's The Steakhouse",
+          "cuisine": "Fine Dining - Steakhouse",
+          "description": "Premium steaks and seafood in elegant setting"
+        },
+        {
+          "id": "chuy",
+          "name": "Chuys Mexican Restaurant",
+          "cuisine": "Mexican",
+          "description": "Vibrant casual Mexican dining"
+        },
+        {
+          "id": "rainbow-noodles",
+          "name": "Rainbow Noodles",
+          "cuisine": "Asian Fusion",
+          "description": "Contemporary Asian cuisine"
+        }
+      ]
+    },
+    {
+      "id": "casual-dining",
+      "category": "Casual Dining",
+      "venues": [
+        {
+          "id": "olive-garden",
+          "name": "Olive Garden",
+          "cuisine": "Italian",
+          "description": "Casual Italian dining experience"
+        },
+        {
+          "id": "cheesecake-factory",
+          "name": "The Cheesecake Factory",
+          "cuisine": "American",
+          "description": "Extensive menu and famous cheesecakes"
+        },
+        {
+          "id": "reddstone-grill",
+          "name": "Redstone American Grill",
+          "cuisine": "Contemporary American",
+          "description": "Fresh ingredients and contemporary preparation"
+        }
+      ]
+    },
+    {
+      "id": "fast-casual",
+      "category": "Quick Service",
+      "venues": [
+        {
+          "id": "chipotle",
+          "name": "Chipotle",
+          "cuisine": "Mexican",
+          "description": "Build-your-own Mexican bowls"
+        },
+        {
+          "id": "panda",
+          "name": "Panda Express",
+          "cuisine": "Asian",
+          "description": "Quick Asian cuisine"
+        },
+        {
+          "id": "subway",
+          "name": "Subway",
+          "cuisine": "Sandwiches",
+          "description": "Customizable sandwich shop"
+        }
+      ]
+    }
+  ]
+}

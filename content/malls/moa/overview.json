@@ -1,0 +1,42 @@
+{
+  "property": {
+    "name": "Mall of America",
+    "location": "Bloomington, Minnesota",
+    "tagline": "The Nation's Premier Shopping Destination",
+    "description": "Experience the world's largest shopping mall, a 5.6+ million square foot destination drawing over 40 million annual visitors from across North America and the globe."
+  },
+  "keyMetrics": [
+    {
+      "label": "Square Feet",
+      "value": "5.6M+",
+      "description": "Largest shopping mall in America"
+    },
+    {
+      "label": "Annual Visitors",
+      "value": "40M+",
+      "description": "Visitors from across North America"
+    },
+    {
+      "label": "Retail Tenants",
+      "value": "500+",
+      "description": "Brands and retailers"
+    },
+    {
+      "label": "Anchor Stores",
+      "value": "4",
+      "description": "Nordstrom, Macy's, Saks Fifth Avenue, Dick's Sporting Goods"
+    }
+  ],
+  "positioning": {
+    "headline": "Why Mall of America",
+    "subheadline": "The Ultimate Retail & Entertainment Destination",
+    "keyPoints": [
+      "Unmatched scale and visitor volume in the Midwest",
+      "Diverse tenant mix serving all demographics",
+      "Premium location with strong accessibility",
+      "Proven track record of retail and entertainment success",
+      "State-of-the-art facilities and amenities",
+      "Strategic market position in growing metro area"
+    ]
+  }
+}
