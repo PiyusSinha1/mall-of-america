@@ -338,11 +338,16 @@
   }
 
   /* Stagger animation helper */
-  @for $i from 1 through 10 {
-    .animate-delay-#{$i} {
-      animation-delay: calc($i * 100ms);
-    }
-  }
+  .animate-delay-1 { animation-delay: 100ms; }
+  .animate-delay-2 { animation-delay: 200ms; }
+  .animate-delay-3 { animation-delay: 300ms; }
+  .animate-delay-4 { animation-delay: 400ms; }
+  .animate-delay-5 { animation-delay: 500ms; }
+  .animate-delay-6 { animation-delay: 600ms; }
+  .animate-delay-7 { animation-delay: 700ms; }
+  .animate-delay-8 { animation-delay: 800ms; }
+  .animate-delay-9 { animation-delay: 900ms; }
+  .animate-delay-10 { animation-delay: 1000ms; }
 
   /* Smooth transitions */
   .transition-smooth {
