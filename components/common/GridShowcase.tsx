@@ -32,10 +32,12 @@ export function GridShowcase({
 
   return (
     <div className={`grid ${gridColsClass[columns]} gap-6 sm:gap-8 lg:gap-10 ${className}`}>
-      {items.map((item) => (
+      {items.map((item, index) => (
         <Card
           key={item.id}
-          className="overflow-hidden bg-gradient-to-br from-card to-card/50 border-border/50 hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 hover:border-border/80 group"
+          className="overflow-hidden bg-gradient-to-br from-card to-card/50 border-border/50 hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 hover:border-border/80 group scale-in hover-lift"
+          style={{ animationDelay: `${index * 50}ms` }}
+          data-animate
         >
           {item.image && (
             <div className="relative w-full h-48 sm:h-56 md:h-64 overflow-hidden bg-muted">

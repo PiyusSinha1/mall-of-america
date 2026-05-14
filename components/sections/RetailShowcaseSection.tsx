@@ -18,11 +18,11 @@ export function RetailShowcaseSection() {
   }))
 
   return (
-    <SectionWrapper id="retail" className="bg-gradient-to-br from-background to-secondary/5">
+    <SectionWrapper id="retail" className="bg-gradient-to-br from-background to-cyan-50 dark:to-cyan-950/10">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start mb-16">
         <div>
           <div className="inline-block mb-4">
-            <span className="text-sm font-bold text-accent uppercase tracking-widest px-3 py-1 rounded-full bg-accent/10 border border-accent/20">
+            <span className="text-sm font-bold text-cyan-600 dark:text-cyan-400 uppercase tracking-widest px-3 py-1 rounded-full bg-cyan-100 dark:bg-cyan-950/30 border border-cyan-300 dark:border-cyan-800/50">
               Retail Excellence
             </span>
           </div>
@@ -51,7 +51,7 @@ export function RetailShowcaseSection() {
             key={index}
             onClick={() => setActiveCategory(index)}
             variant={activeCategory === index ? 'default' : 'outline'}
-            className={`${activeCategory === index ? 'bg-gradient-to-r from-primary to-secondary hover:from-primary/90 hover:to-secondary/90 text-white border-0' : 'hover:border-primary hover:bg-primary/5'} transition-all duration-300`}
+            className={`${activeCategory === index ? 'bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-600 hover:to-teal-600 text-white border-0' : 'hover:border-cyan-400 hover:bg-cyan-50 dark:hover:bg-cyan-950/20'} transition-all duration-300`}
           >
             {category.name}
           </Button>

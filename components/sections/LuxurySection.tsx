@@ -19,10 +19,10 @@ export function LuxurySection() {
   }))
 
   return (
-    <SectionWrapper id="luxury" className="bg-gradient-to-br from-background to-primary/5">
+    <SectionWrapper id="luxury" className="bg-gradient-to-br from-background to-purple-50 dark:to-purple-950/10">
       <div className="mb-16">
         <div className="inline-block mb-4">
-          <span className="text-sm font-bold text-accent uppercase tracking-widest px-3 py-1 rounded-full bg-accent/10 border border-accent/20">
+          <span className="text-sm font-bold text-purple-600 dark:text-purple-400 uppercase tracking-widest px-3 py-1 rounded-full bg-purple-100 dark:bg-purple-950/30 border border-purple-300 dark:border-purple-800/50">
             Elevated Experience
           </span>
         </div>
