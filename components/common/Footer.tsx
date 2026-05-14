@@ -86,9 +86,14 @@ export function Footer() {
 
         {/* Bottom Section */}
         <div className="flex flex-col sm:flex-row justify-between items-center gap-6 fade-in-slow" style={{ animationDelay: '0.5s' }}>
-          <p className="text-sm text-muted-foreground">
-            &copy; {currentYear} Mall of America. All rights reserved.
-          </p>
+          <div className="text-center sm:text-left">
+            <p className="text-sm text-muted-foreground">
+              &copy; {currentYear} Mall of America. All rights reserved.
+            </p>
+            <p className="text-xs text-muted-foreground/70 mt-2">
+              Developed by <span className="font-semibold text-foreground">Piyush Kumar Sinha</span>
+            </p>
+          </div>
           
           <div className="flex gap-6 sm:gap-8">
             {['Privacy', 'Terms', 'Accessibility'].map((link, index) => (
