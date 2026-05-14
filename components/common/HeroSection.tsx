@@ -33,18 +33,19 @@ export function HeroSection({
         backgroundAttachment: 'fixed',
       }}
     >
-      {/* Animated gradient overlay */}
+      {/* Vibrant hero gradient background */}
+      <div className="absolute inset-0 bg-gradient-to-br from-purple-600 via-pink-500 to-blue-400" />
+      
+      {/* Enhanced overlay for image */}
       {backgroundImage && (
-        <div className="absolute inset-0 bg-gradient-to-b from-black/45 via-black/35 to-black/50" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/50" />
       )}
       
-      {/* Animated blur backdrop */}
-      <div className="absolute inset-0 backdrop-blur-sm" />
-      
-      {/* Animated background elements */}
+      {/* Floating blur lights for premium effect */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-full blur-3xl animate-float opacity-30" />
-        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-gradient-to-tr from-accent/20 to-primary/20 rounded-full blur-3xl animate-float opacity-20" style={{ animationDelay: '1s' }} />
+        <div className="absolute -top-40 -right-40 w-96 h-96 bg-gradient-to-br from-purple-400 to-pink-300 rounded-full blur-3xl animate-float opacity-40" />
+        <div className="absolute -bottom-32 -left-32 w-80 h-80 bg-gradient-to-tr from-cyan-300 to-blue-300 rounded-full blur-3xl animate-float opacity-30" style={{ animationDelay: '2s' }} />
+        <div className="absolute top-1/2 right-1/4 w-72 h-72 bg-gradient-to-bl from-pink-300 to-purple-200 rounded-full blur-3xl animate-float opacity-25" style={{ animationDelay: '4s' }} />
       </div>
       
       <div className="relative z-10 max-w-5xl mx-auto text-center space-y-8 blur-fade-in">
@@ -56,12 +57,12 @@ export function HeroSection({
           </div>
         )}
         
-        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight text-white drop-shadow-lg text-balance slide-up" style={{ animationDelay: '0.1s' }}>
+        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-poppins font-800 leading-tight text-white drop-shadow-2xl text-balance slide-up" style={{ animationDelay: '0.1s', letterSpacing: '-0.02em' }}>
           {title}
         </h1>
         
         {description && (
-          <p className="text-base sm:text-lg md:text-xl text-gray-100 drop-shadow-md text-pretty max-w-3xl mx-auto leading-relaxed slide-up" style={{ animationDelay: '0.2s' }}>
+          <p className="text-base sm:text-lg md:text-xl text-white/90 drop-shadow-lg text-pretty max-w-3xl mx-auto leading-relaxed slide-up font-inter" style={{ animationDelay: '0.2s' }}>
             {description}
           </p>
         )}
@@ -71,7 +72,7 @@ export function HeroSection({
             <Button
               onClick={primaryCta.onClick}
               size="lg"
-              className="bg-gradient-to-r from-primary to-secondary hover:from-primary/90 hover:to-secondary/90 text-white font-semibold px-8 py-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 hover-lift"
+              className="btn-gradient px-8 py-6 rounded-full shadow-xl hover:shadow-2xl"
             >
               {primaryCta.text}
               <svg className="w-5 h-5 ml-2 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
