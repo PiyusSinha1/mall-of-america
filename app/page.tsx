@@ -12,22 +12,47 @@ import { Footer } from '@/components/common/Footer'
 
 export default function Home() {
   useEffect(() => {
+    // Intersection Observer for scroll animations
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             entry.target.classList.add('animate-in', 'fade-in')
+            // Add staggered animations to child elements
+            const children = entry.target.querySelectorAll('[data-animate]')
+            children.forEach((child, index) => {
+              const element = child as HTMLElement
+              element.style.animationDelay = `${index * 100}ms`
+              element.classList.add('slide-up')
+            })
           }
         })
       },
       { threshold: 0.1 }
     )
 
+    // Observe all sections
     document.querySelectorAll('section').forEach((section) => {
       observer.observe(section)
     })
 
-    return () => observer.disconnect()
+    // Add scroll-based opacity effect to nav
+    const handleScroll = () => {
+      const nav = document.querySelector('nav')
+      if (nav) {
+        if (window.scrollY > 100) {
+          nav.classList.add('shadow-lg')
+        } else {
+          nav.classList.remove('shadow-lg')
+        }
+      }
+    }
+
+    window.addEventListener('scroll', handleScroll)
+    return () => {
+      observer.disconnect()
+      window.removeEventListener('scroll', handleScroll)
+    }
   }, [])
 
   return (

@@ -19,11 +19,12 @@ export function MetricBox({
 }: MetricBoxProps) {
   return (
     <div
-      className={`relative p-8 rounded-2xl border transition-all duration-300 group overflow-hidden ${
+      className={`relative p-8 rounded-2xl border transition-all duration-300 group overflow-hidden scale-in ${
         highlight
-          ? 'bg-gradient-to-br from-primary/15 to-secondary/15 border-primary/50 shadow-lg hover:shadow-xl hover:-translate-y-1'
-          : 'bg-gradient-to-br from-card to-card/50 border-border/50 hover:shadow-lg hover:-translate-y-1 hover:border-border/80'
+          ? 'bg-gradient-to-br from-primary/15 to-secondary/15 border-primary/50 shadow-lg hover:shadow-xl hover:-translate-y-1 hover:glow'
+          : 'bg-gradient-to-br from-card to-card/50 border-border/50 hover:shadow-lg hover:-translate-y-1 hover:border-border/80 hover:glow'
       }`}
+      data-animate
     >
       <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
         <div className={`absolute top-0 right-0 w-32 h-32 rounded-full blur-3xl ${highlight ? 'bg-primary/20' : 'bg-secondary/20'}`} />
