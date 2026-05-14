@@ -8,11 +8,11 @@ import { Button } from '@/components/ui/button'
 
 export function EventsSection() {
   return (
-    <SectionWrapper id="events" className="bg-gradient-to-br from-background via-background to-accent/5">
+    <SectionWrapper id="events" className="bg-gradient-to-br from-background via-background to-indigo-50 dark:to-indigo-950/10">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start mb-16">
         <div>
           <div className="inline-block mb-4">
-            <span className="text-sm font-bold text-accent uppercase tracking-widest px-3 py-1 rounded-full bg-accent/10 border border-accent/20">
+            <span className="text-sm font-bold text-indigo-600 dark:text-indigo-400 uppercase tracking-widest px-3 py-1 rounded-full bg-indigo-100 dark:bg-indigo-950/30 border border-indigo-300 dark:border-indigo-800/50">
               Events & Sponsorships
             </span>
           </div>
@@ -71,8 +71,8 @@ export function EventsSection() {
         
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 md:gap-10">
           {eventsData.marketingBenefits.map((benefit, index) => (
-            <div key={index} className="bg-gradient-to-br from-background to-background/50 rounded-xl p-6 border border-border/30 group hover:border-border/60 hover:shadow-lg transition-all duration-300">
-              <h4 className="text-lg font-bold text-primary mb-3 group-hover:text-secondary transition-colors">
+            <div key={index} className="bg-gradient-to-br from-indigo-50/50 to-indigo-100/30 dark:from-indigo-950/20 dark:to-indigo-900/10 rounded-xl p-6 border border-indigo-200/50 dark:border-indigo-800/30 group hover:border-indigo-300 dark:hover:border-indigo-700/50 hover:shadow-lg transition-all duration-300">
+              <h4 className="text-lg font-bold text-indigo-700 dark:text-indigo-400 mb-3 group-hover:text-indigo-900 dark:group-hover:text-indigo-300 transition-colors">
                 {benefit.benefit}
               </h4>
               <p className="text-muted-foreground leading-relaxed text-sm">
@@ -84,7 +84,7 @@ export function EventsSection() {
       </div>
 
       {/* CTA Section */}
-      <div className="text-center bg-gradient-to-br from-primary/10 to-secondary/10 rounded-2xl border border-border/50 p-10 md:p-16">
+      <div className="text-center bg-gradient-to-br from-indigo-100/50 to-indigo-200/30 dark:from-indigo-950/30 dark:to-indigo-900/20 rounded-2xl border border-indigo-300/50 dark:border-indigo-800/30 p-10 md:p-16">
         <h3 className="text-3xl sm:text-4xl font-bold mb-4 text-foreground text-balance">
           Ready to Partner With Us?
         </h3>

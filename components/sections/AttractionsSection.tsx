@@ -7,11 +7,11 @@ import attractionsData from '@/content/malls/moa/attractions.json'
 
 export function AttractionsSection() {
   return (
-    <SectionWrapper id="attractions" className="bg-gradient-to-br from-background to-secondary/5">
+    <SectionWrapper id="attractions" className="bg-gradient-to-br from-background to-rose-50 dark:to-rose-950/10">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start mb-16">
         <div>
           <div className="inline-block mb-4">
-            <span className="text-sm font-bold text-accent uppercase tracking-widest px-3 py-1 rounded-full bg-accent/10 border border-accent/20">
+            <span className="text-sm font-bold text-rose-600 dark:text-rose-400 uppercase tracking-widest px-3 py-1 rounded-full bg-rose-100 dark:bg-rose-950/30 border border-rose-300 dark:border-rose-800/50">
               World-Class Entertainment
             </span>
           </div>
@@ -37,9 +37,9 @@ export function AttractionsSection() {
       <h3 className="text-2xl sm:text-3xl font-bold mb-8 text-foreground">Featured Attractions</h3>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mb-16">
         {attractionsData.attractions.map((attraction) => (
-          <Card key={attraction.id} className="p-8 hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 border-border/50 bg-gradient-to-br from-card to-card/50 group">
+          <Card key={attraction.id} className="p-8 hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 border-rose-200/50 dark:border-rose-800/30 bg-gradient-to-br from-rose-50/50 to-pink-50/30 dark:from-rose-950/20 dark:to-pink-950/10 group">
             <div className="mb-4 inline-block">
-              <span className="px-3 py-1 bg-gradient-to-r from-primary/20 to-secondary/20 text-primary text-xs font-bold rounded-full group-hover:from-primary/30 group-hover:to-secondary/30 transition-colors">
+              <span className="px-3 py-1 bg-gradient-to-r from-rose-200/60 to-pink-200/60 dark:from-rose-900/40 dark:to-pink-900/40 text-rose-700 dark:text-rose-300 text-xs font-bold rounded-full group-hover:from-rose-300 group-hover:to-pink-300 dark:group-hover:from-rose-800 dark:group-hover:to-pink-800 transition-colors">
                 {attraction.type}
               </span>
             </div>
